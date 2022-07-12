@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>game information</title>
+    <meta charset="UTF-8">
+    <meta viewport="width:divice-width , inital-scale:1.0">
+  
+    <style>
+      html {
+          background-image: url("https://wallpaperscmscwm.azurewebsites.net/Xbox-and-Bethesda-Games-Showcase/standard.png");
+          background-size: 100%;
+        } 
+    .css {
+      border:none;
+      height: 50px;
+      border-radius: 4px;
+      background-color: rgba(103, 126, 255, 0.849);
+      color: rgb(10, 0, 46);             
+    }
+    .float {
+      font-size: 20px;
+    } 
+
+    .clearfix:after {
+      visibility: hidden;
+      display: block;
+      font-size: 0;
+      content: "";
+      clear: both;
+      height: 0;
+    }      
+    .float ul li {
+      float: left;
+    }
+    .float ul li {
+      list-style: none;
+    }
+    .float ul li a {
+      text-decoration: none;
+    }
+    .float{
+      padding:0px;
+      margin:0 ;
+    }
+    .float{
+      position: fixed;
+      width: 95%;
+      margin: 0 0 0px 28px;
+    }
+    .float ul li a {
+      padding: 15px;
+      margin: 2px;
+    }
+    .css {
+      padding-top: 2px;
+    }
+    .css li  {
+      padding-top: 7px;
+      padding-left: 100px;
+    }
+    .css form {
+      padding-top: 7px;        
+    }
+    .css form label {
+      padding-left: 80px;
+    }
+    a {
+      color:rgb(10, 0, 46);  ;
+    }
+    .a:hover {
+      color:rgb(15, 36, 223);
+      letter-spacing: 1px;
+      animation-duration: 5s;
+      animation-name: hd;
+    }       
+    @keyframes hd{
+      0%{
+          color:rgb(76, 6, 240);
+      }
+      50%{
+          color:rgb(31, 0, 80);
+      }
+      100%{
+          color:rgb(132, 0, 255);
+      }
+    }
+    .hin {
+      background-color: #e1e1e1;
+      border-radius: 10px;
+      font-size: 15px;
+    }
+    .css {
+      padding: 0;
+      margin-top:0;
+    }
+    .hin:hover {
+      border-color: #e1e1e1;
+    }
+    .aer{
+      text-decoration: none;
+      color:rgb(55, 0, 255);  ;
+    }
+    .aer:hover{
+      color: rgb(10, 0, 46);  ;        
+    }
+    #h1 {
+      margin-top: -15px;
+    }
+    .display {
+      display:block;
+    }
+    h2{
+      color: rgb(43, 0, 197);  ;
+    }   
+    img {
+      width: 300px;
+      padding:50px;
+    }
+    .khat {
+      color:rgb(55, 0, 255);  ;
+    } 
+    #h1 {
+      padding-top: 50px;
+      color: rgb(10, 0, 46);  ;
+    }
+    .card {
+      border: blue solid 1px;
+      border-radius: 3px;
+      background-color: #00ccffd7;
+      color: blue;
+      padding: 5px 2px 5px 2px;
+      margin:20px 20px 50px 20px;
+    }
+    .tay{
+      float: left;
+    }
+ 
+    
+    
+  
+  </style>     
+
+  </head>
+   <body>
+      <div class="float">
+          <ul  class="css">           
+            <li><a class="a" href="#">game info</a></li>                  
+            <li><a class="a" href="#">about</a></li>
+            <li><a class="a" href="#">new game</a></li>
+            <li><a class="a" href="#">the best sale</a></li>
+            <form action="">
+              <label>search here</label>
+              <input class="hin" type="search" placeholder="search">
+            </form>
+          </ul>
+      </div>
+
+      <h1 id="h1"><a class="aer" href="#">games</a></h1>
+      <hr class="khat"/>
+
+      <section>
+            <h2>the best online game</h2>
+            <div class="card clearfix">
+              <img class="tay" src="https://pbs.twimg.com/profile_images/1533388203868180481/ngoRRMCE_400x400.jpg" alt="fortnite">
+              <p class="uy">Fortnite is an online video game developed
+                 by Epic Games and released in 2017. It is available
+                 in three distinct game mode versions that otherwise 
+                 share the same general gameplay and game engine: Fortnite 
+                 Battle Royale, a free-to-play battle royale game in which up
+                 to 100 players fight to be the last person standing; Fortnite:
+                 Save the World,<br/> a cooperative hybrid tower defense-shooter and
+                 survival game in which up to four players fight off zombie-like
+                 creatures and defend objects with traps and fortifications they 
+                 can build; and Fortnite Creative, in which players are given 
+                 complete freedom to create worlds and battle arenas.<br/>
+                 Save the World and Battle Royale were released in 2017
+                 as early access titles, while Creative was released
+                 on December 6, 2018. While the Save the World and Creative
+                 versions have been successful for Epic Games, Fortnite Battle
+                 Royale in particular became an overwhelming success and a cultural
+                 phenomenon, drawing more than 125 million players in less than a year,
+                 earning hundreds of millions of dollars per month.
+                 Fortnite as a whole generated $9 billion in gross
+                 revenue up until December 2019.                
+                 Save the World is available only for Windows,
+                 macOS,[b] PlayStation 4, and Xbox One, while
+                 Battle Royale and Creative were released for
+                 all those platforms, and also for Nintendo 
+                 Switch, iOS,[b] and Android devices.[b] The
+                 game also launched with the release of the 
+                 next-generation PlayStation 5 and Xbox Series X/S consoles. </p>
+            </div>
+      </section>
+
+      <section>
+        <div class="card">
+          <img class="tay" src="https://prosettings.net/wp-content/uploads/call-of-duty-warzone-logo-test.svg" alt="call of duty warzone">
+          <p>
+            Call of Duty: Warzone is a free-to-play battle royale video game 
+            released on March 10, 2020, for PlayStation 4, Xbox One, and Microsoft
+            Windows. A version for the PlayStation 5 and Xbox Series X/S has been
+            announced to be released in 2022, with a mobile version also in development 
+            as of 2022.[1][2] The game is a part of 2019's Call of Duty: Modern Warfare 
+            and is connected to 2020's Call of Duty: Black Ops: Cold War and 2021's Call
+            of Duty: Vanguard, but does not require purchase of any of the aforementioned 
+            titles, and was introduced during Season 2 of Modern Warfare content. Warzone 
+            was developed by Infinity Ward and Raven Software (the latter later credited as
+            the sole developer following the integration of Cold War's content) and published 
+            by Activision.[3] Warzone allows online multiplayer combat among 150 players, 
+            although some limited-time game modes support 200 players. The game features
+            both cross-platform play and cross-platform progression between the three
+            aforementioned titles.
+            At launch, the game features two main modes: Battle Royale and Plunder. Warzone introduces a 
+            new in-game currency system that can be used at "Buy Stations" in and around the map. "Loadout" 
+            drops are an example of where Cash can be traded for limited access to players' custom classes
+            (which were shared with Modern Warfare's standard modes prior to Season 6, v1.29, but now are
+            unique to Warzone). Players may also use Cash to purchase items such as "killstreaks" and gas
+            masks. Cash can be found by looting buildings
+            and killing players that have cash on them. 
+            At launch, Warzone only offered Trios, a squad 
+            capacity of three players. However, in free post-launch 
+            content updates, Solos, Duos and Quads have all been added 
+            to the game.
+            The game received generally positive reviews from critics, with the maps receiving 
+            specific praise. In April 2021, Activision announced that Warzone had surpassed 100
+            million active players
+          </p>        
+        </div>
+      </section>
+
+      <section>
+        <div class="card clearfix">
+          <img class="tay" src="https://seeklogo.com/images/A/apex-logo-F74B0C9FCD-seeklogo.com.png" alt="apex">
+          <p class="uy">
+            Apex Legends is a free-to-play battle royale-hero
+            shooter game developed by Respawn Entertainment 
+            and published by Electronic Arts. It was released
+            for Microsoft Windows, PlayStation 4, and Xbox 
+            One in February 2019, for Nintendo Switch in
+            March 2021, and for PlayStation 5 and Xbox Series
+            X/S in March 2022. A mobile version of the game 
+            designed for touchscreens titled Apex Legends
+            Mobile was released in May 2022 on Android and
+            iOS. The game supports cross-platform play,
+            excluding the aforementioned mobile platforms.
+            Before the match, players form into two- or three-player squads,
+            and select from pre-designed characters with distinctive
+            abilities, known as "Legends". The game has two gameplay
+            modes. In "Battle Royale", up to 20 three-person squads
+            or 30 two-person duos land on an island and search for
+            weapons and supplies before attempting to defeat all 
+            other players in combat. The available play area on the
+            island shrinks over time, forcing players to keep moving
+            or else find themselves outside the play area which can
+            be fatal. The final team alive wins the round. In "Arenas", 
+            players form into three-player squads and fight against
+            another squad in a 3v3 team deathmatch over a series of
+            rounds to determine the winner of the match. Teams win
+            when their team has at least 3 points and is 2 points ahead. 
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2> the best offline games</h2>
+        <div class="card ">
+          <img class="tay" src="https://www.nicepng.com/png/detail/323-3238100_artposted-red-dead-redemption-2.png" alt="read dead redemotion2">
+          <p class="ret">
+            Red Dead Redemption 2[a] is a 2018 
+            action-adventure game developed and
+            published by Rockstar Games. The game 
+            is the third entry in the Red Dead series
+            and a prequel to the 2010 game Red Dead
+            Redemption. The story is set in 1899              
+            and follows the exploits of outlaw
+            Arthur Morgan, a member of the Van 
+            der Linde gang, in a fictionalized
+            representation of the Western, Midwestern,
+            and Southern United States. Arthur must 
+            deal with the decline of the Wild West 
+            whilst attempting to survive against
+            government forces, rival gangs, and other 
+            adversaries. The game's epilogue follows
+            fellow gang member John Marston, 
+            the protagonist of Red Dead Redemption.
+            The game is presented through both first
+            and third-person perspectives, and the player
+            may freely roam in its interactive open world
+            . Gameplay elements include shootouts, heists, 
+            hunting, horseback riding, interacting with non-player              
+            haracters, and maintaining the character's honor rating
+            through moral choices and deeds. A bounty system similar
+            to the "wanted" system from the Grand Theft Auto
+            franchise governs the response of law enforcement 
+            and bounty hunters to crimes committed by the player. 
+            Red Dead Online, the game's online multiplayer mode,
+            lets up to 32 players engage in a variety of
+            cooperative and competitive game modes.            
+            The game's development lasted over eight years,
+            beginning soon after Red Dead Redemption's release,
+            and it became one of the most expensive video games
+            ever made. Rockstar co-opted all of its studios into
+            one large team to facilitate development. They drew
+            influence from real locations as opposed to film or
+            art, focused on creating an accurate reflection of
+            the time with the game's characters and world. Th                   e
+            game was Rockstar's first built specifically for
+            eighth generation consoles, having tested their
+            technical capabilities while porting Grand Theft
+            Auto V to the platforms. The game's soundtrack
+            features an original score composed by Woody
+            Jackson and several vocal tracks produced                          
+            by Daniel Lanois. Red Dead Redemption 2 was
+            released for the PlayStation 4 and Xbox One
+            in October 2018, and for Windows and Stadia
+            in November 2019.               
+            Widely anticipated and marketed before release,
+            Red Dead Redemption 2 broke several records and 
+            had the second-biggest launch in the history of 
+            entertainment, generating US$725 million in sales 
+            from its opening weekend and exceeding the lifetime
+            sales of Red Dead Redemption in two weeks. It received
+             critical 
+            acclaim, with praise directed at its story,characters, 
+            open world, graphics, music, and level of detail; some
+            criticism was directed at its control scheme and emphasis
+            on realism over player freedom. Considered an example of                 
+            video games as an art form as well as one of the greatest
+            video games ever made, it won year-end accolades includingGame 
+            of the Year awards from several gaming publications.
+            It is also among the best-selling video games with over
+            44 million copies shipped. 
+          </p>
+        </div>
+      </section>
+ 
+  <script>
+   alert ('chand ta bazy ba css ghashang ezafe kon')
+
+  </script>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
